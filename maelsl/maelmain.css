@@ -43,56 +43,47 @@ main {
 	background-color: transparent;
 }
 
-/*big transparent box*/
 .box1 {
 	height: 338px;
 	background-color: black;
 	opacity: 80%;
 }
 
-/*Big Transparent box text*/
 h1 {
 	color: purple;
 	font-size: 55px;
 	padding-top: 120px;
-	padding-left: 312px;
+	padding-left: 60px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
-/*Previews title*/
+.box2 img {
+	width: 33%;
+}
+
+.box2 {
+	width: 100%;
+}
+
 .box2 h2 {
 	color: purple;
 	font-size: 23px;
-	text-align: center;
-}
-
-/*Preview images*/
-.box2 img {
-	display: inline-block;
 	width: 100%;
-	height: auto;
+	padding-left: 22px;
+	font-family: butcherman, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
-/*Preview images box size*/
-.box2 {
-	width: 31.3%;
-	float: left;
-}
-
-/*more info box*/
 .box3 {
 	background-color: black;
 	opacity: 80%;
+	width: 100%;
+	padding-left: 20px;
 }
 
-/*more info box title*/
 .box3 h3 {
 	color: purple;
 	font-size: 23px;
-	text-align: center;
-}
-
-/*More info paragraph*/
-.box3 p {
-	color: purple;
-	font-size: 16px;
+	width: 100%;
+	padding-left: 22px;
+	font-family: "neuton-cursive", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
