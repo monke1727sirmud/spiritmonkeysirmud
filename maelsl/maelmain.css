@@ -43,44 +43,56 @@ main {
 	background-color: transparent;
 }
 
+/*big transparent box*/
 .box1 {
 	height: 338px;
 	background-color: black;
 	opacity: 80%;
 }
 
+/*Big Transparent box text*/
 h1 {
 	color: purple;
 	font-size: 55px;
 	padding-top: 120px;
-	padding-left: 60px;
+	padding-left: 312px;
 }
 
-.box2 img {
-	display: inline-block;
-	width: 100%;
-	height: 100%
-}
-
-.box2 {
-	width: 31.3%;
-}
-
+/*Previews title*/
 .box2 h2 {
 	color: purple;
 	font-size: 23px;
-	padding-left: 22px;
+	text-align: center;
 }
 
+/*Preview images*/
+.box2 img {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+/*Preview images box size*/
+.box2 {
+	width: 31.3%;
+	float: left;
+}
+
+/*more info box*/
 .box3 {
 	background-color: black;
 	opacity: 80%;
-	width: 40%;
-	padding-left: 20px;
 }
 
+/*more info box title*/
 .box3 h3 {
 	color: purple;
 	font-size: 23px;
-	padding-left: 22px;
+	text-align: center;
+}
+
+/*More info paragraph*/
+.box3 p {
+	color: purple;
+	font-size: 16px;
 }
