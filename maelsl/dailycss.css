@@ -76,27 +76,20 @@ h1 {
 	font-family: butcherman, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
-.box3 {
-	background-color: black;
-	opacity: 80%;
+.deity {
+	width: auto;
 	height: auto;
-	width: 70%;
-	padding-left: 159px;
+	padding-left: 40%;
 }
 
-.box3 h3 {
-	color: purple;
-	font-size: 23px;
-	width: 100%;
-	text-align: center;
-	font-family: "neuton-cursive", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+table.tr{
+	width: auto;
+	height: auto;
 }
 
-.box3 p {
-	color: purple;
-	font-size: 16px;
-	text-align: center;
-	font-family: "neuton-cursive", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+table.td {
+	width: auto;
+	height: auto;
 }
 
 .bgicn {
@@ -173,27 +166,4 @@ footer a {
 
 footer img {
 	width: 70%;
-}
-
-.box4 {
-	background-color: black;
-	opacity: 80%;
-	height: auto;
-	width: 70%;
-	padding-left: 159px; 
-}
-
-.box4 h3 {
-	color: purple;
-	font-size: 23px;
-	width: 100%;
-	text-align: center;
-	font-family: "neuton-cursive", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
-}
-
-.box4 p {
-	color: purple;
-	font-size: 16px;
-	text-align: center;
-	font-family: "neuton-cursive", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
