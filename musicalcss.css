@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+/*Side Navigation Bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 14%;
+  background-color: transparent;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: purple;
+  padding: 9px 14px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #0d0d0d;
+  color: purple;
+}
+
+li a:hover:not(.active) {
+  background-color: #0d0d0d;
+  color: #e60000;
+}
+
+/*body styles*/
+body {
+	margin: 0;
+	background-image: url(images/D3oy3if.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+/*Main body*/
+main {
+	margin-right: 12px;
+	padding: 1px;
+	background-color: transparent;
+}
+
+.box1 {
+	height: 338px;
+	background-color: black;
+	opacity: 80%;
+}
+
+h1 {
+	color: purple;
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 300px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+.box2 {
+	width: 100%;
+}
+
+.box2 h2 {
+	color: purple;
+	font-size: 23px;
+	width: 100%;
+	text-align: center;
+	font-family: butcherman, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+.box2 p {
+	color: purple;
+	font-size: 13px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+.box2 h3 {
+	color: purple;
+	text-align: center;
+	font-size: 23px;
+	width: 100%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", butcherman
+}
+
+#cc_tunein {
+	margin: auto;
+	width: 10%;
+	padding: 10px;
+}
+
+.box3 {
+	text-align: center;
+}
+
+.mbox {
+	align-content: center;
+	margin: auto;
+	width: 400px;
+	padding: 1px;
+}
+
+.mstat {
+	align-content: center;
+	margin: auto;
+	width: 20px;
+	padding: 1px;
+}
+
+.box4 {
+	align-content: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 40%;
+	color: black;
+	opacity: 70%;
+}
+
+footer {
+	background-color: black;
+}
+
+footer p {
+	color: purple;
+	font-size: 14px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+footer a {
+	color: purple;
+	background-color: transparent;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: inline-block;
+	margin-top: -30px;
+}
+
+footer img {
+	width: 70%;
+}
